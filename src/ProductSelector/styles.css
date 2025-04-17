@@ -104,6 +104,8 @@
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  line-clamp: 4;
+  box-orient: vertical;
   text-overflow: ellipsis;
 }
 
@@ -234,10 +236,6 @@
   margin: 0;
 }
 
-/* Firefox */
-.hide-arrow[type="number"] {
-  -moz-appearance: textfield;
-}
 .container-quantidade {
   display: flex;
   width: 50px;
